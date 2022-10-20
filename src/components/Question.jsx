@@ -224,7 +224,8 @@ const Question = () => {
       <div className="app">
         {showScore ? (
           <div className="text-center mt-5 display-3">
-            You scored {score} of {questions.length}.
+            You scored {score} of {questions.length}
+            
           </div>
         ) : (
           <>
